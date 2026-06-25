@@ -58,7 +58,7 @@ Aplikasi ini memungkinkan administrator untuk:
 > 📸 **Screenshot uji coba via Postman — request tanpa token ditolak dengan response 401 Unauthorized:**
 
 <!-- Ganti dengan screenshot Postman kamu -->
-![Uji 401 Unauthorized](screenshots/postman-401.png)
+![Uji 401 Unauthorized](screenshots/postman-401.jpeg)
 
 Endpoint manipulasi data **(POST, PUT, DELETE)** diproteksi menggunakan **CodeIgniter Filter** dengan mekanisme **Authorization Bearer Token**. Request tanpa token atau token tidak valid akan langsung ditolak oleh server dengan response `401 Unauthorized`.
 
